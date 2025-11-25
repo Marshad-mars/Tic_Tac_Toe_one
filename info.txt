@@ -1,0 +1,12 @@
+{Main structure of the game}-
+    1. There must be a 6 squared grid. For the foundation of the game.
+    2. "Winning patterns", required in total number is 8.
+            3 for vetical patetterns.
+            3 for horizontal patterns.
+            2 for the diagonal patterns.
+    3. (JavaScript)- Main logic of the game and functional mechanism of the game.
+        (CSS)- Designing and looks of the game and the whole web-site.
+        (HTML)- Structure and skelton of the whole project.
+            *Frontend of the website: HTML and CSS.
+            *Backend of the website: JS.
+    4. The whole game would be stored inside of a container named, <div.game_container>
