@@ -10,3 +10,8 @@
             *Frontend of the website: HTML and CSS.
             *Backend of the website: JS.
     4. The whole game would be stored inside of a container named, <div.game_container>
+    5. The main focu here would be in the JS logic.
+
+    *For having a dynamic type height and width for the website, we use the suffix <vh> which stands for viewport-height.
+        For eg, {height: 40vh;}. This would mean, the body or the respective div.__ would cover 40% of the height-length of the 
+        respective height of the viewport page, in the aspect ratio of that particular device.
