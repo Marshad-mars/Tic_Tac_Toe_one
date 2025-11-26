@@ -7,12 +7,35 @@
     <title>Tic-Tac-Toe-initial</title>
 </head>
 <body>
-    <center><h2 style="margin-bottom: 2px;">Welcome to,</h2></center>
-    <center><big><h1 style="margin-top: 2px;">Tic-Tac-Toe</h1></big></center>
-    <div class="game_container">
-        <div class="game">
-            <button></button>
+    <main>
+        <center><h2 style="margin-bottom: 2px;">Welcome to,</h2></center>
+        <center><big><h1 style="margin-top: 2px;">Tic-Tac-Toe</h1></big></center>
+        <div class="game_container">
+            <center>
+                <div class="game">
+                    <button class="box">X</button>
+                    <button class="box">O</button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                    <button class="box"></button>
+                </div>
+            </center>
         </div>
-    </div>
+        <button id="reset_game_button" 
+                style="height: 50px; 
+                    width: 120px; 
+                    border-radius: 15px; 
+                    box-shadow: 4px 6px 25px rgba(0,0,0,0.9); 
+                    margin-top: 20px; 
+                    font-size: 20px;
+                    background: linear-gradient(to bottom, black -30%, transparent);
+                    letter-spacing: 2px;">
+                <b>reset</b>
+        </button>
+    </main>
 </body>
 </html>
