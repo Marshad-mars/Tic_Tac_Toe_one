@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap; /*this property is used to wrap up all the contents that are not fitting inside of the div or the container*/
+    justify-content: center; 
+    align-items: center;  /*Here the boxs are at the center portion of the game div*/
+    gap: 1.5vmin;  /*This property is used for creating gaps between other contents inside of a div or a container*/
+    margin-top: 20px;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15px;
+    box-shadow: 4px 6px 8px rgba(0,0,0,0.7);  /*this property is used for degnifying the box shadow of a box or container*/
+    font-size: 8vmin;
+    color: rgb(226, 54, 54);
+}
