@@ -11,7 +11,17 @@
             *Backend of the website: JS.
     4. The whole game would be stored inside of a container named, <div.game_container>
     5. The main focu here would be in the JS logic.
+    6. It is important to know the logic of the alternate turns of the players.
 
     *For having a dynamic type height and width for the website, we use the suffix <vh> which stands for viewport-height.
         For eg, {height: 40vh;}. This would mean, the body or the respective div.__ would cover 40% of the height-length of the 
         respective height of the viewport page, in the aspect ratio of that particular device.
+    *It is preferable to link the JS file with the html file, just before the </body>. Because it would allow the index.html to
+        load at first and then the main engine of the website would be loaded.
+    *For using any class typed container or an element, we use the <.> infront of the name of the container or the element.
+        For using any identified container or an element, we use the <#> infront of the name of the container or the element.
+    *Those arrays, which are inside of another array, are known as 2D-array. And here in this game, 2D-arrays would be specially 
+        used.
+    *(Event Listenner)- Boss, an event listener in JavaScript is a function that waits and responds when a specific action (event) 
+                        happens on a webpage, such as clicking a button, moving the mouse, pressing a key, or loading the page; 
+                        you attach it using element.addEventListener("eventName", function)
